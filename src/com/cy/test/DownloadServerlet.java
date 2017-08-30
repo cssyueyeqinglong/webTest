@@ -33,6 +33,7 @@ public class DownloadServerlet extends HttpServlet {
 		while ((len = is.read(b)) != -1) {
 			os.write(b, 0, len);
 		}
+		
 	}
 
 	protected void doPost(HttpServletRequest request, HttpServletResponse response)

@@ -10,6 +10,8 @@ import javax.servlet.http.HttpServlet;
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 
+import org.apache.commons.io.IOUtils;
+
 /**
  * 下载文件的serverlet
  */
@@ -28,11 +30,12 @@ public class DownloadServerlet extends HttpServlet {
 		response.setHeader("content-disposition", "attachment;filename=" + fileName);
 		InputStream is = context.getResourceAsStream("/download/" + fileName);
 		ServletOutputStream os = response.getOutputStream();
-		int len = -1;
+	/*	int len = -1;
 		byte[] b = new byte[1024];
 		while ((len = is.read(b)) != -1) {
 			os.write(b, 0, len);
-		}
+		}*/
+		IOUtils.copy(is, os);
 		
 	}
 

@@ -21,4 +21,11 @@ public class UserDao {
 		UserBean bean = qr.query(sql, new BeanHandler<>(UserBean.class), name, pwd);
 		return bean;
 	}
+
+	public int registUser(UserBean bean) throws SQLException {
+		QueryRunner qr = new QueryRunner(DataSourcePoolV2.getDataSource());
+		String sql = "insert into user values(id=?,username=? ,password=?,name=?,email=?,sex=? , birthday=?)";
+		return qr.update(sql,5, bean.username, bean.password, bean.name, bean.email, bean.inlineRadioOptions,
+				bean.birthday);
+	}
 }

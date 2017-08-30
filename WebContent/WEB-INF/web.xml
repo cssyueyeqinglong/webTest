@@ -20,4 +20,14 @@
     <servlet-name>DownloadServerlet</servlet-name>
     <url-pattern>/download</url-pattern>
   </servlet-mapping>
+  <servlet>
+    <description></description>
+    <display-name>RegistServerlet</display-name>
+    <servlet-name>RegistServerlet</servlet-name>
+    <servlet-class>com.cy.test.RegistServerlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>RegistServerlet</servlet-name>
+    <url-pattern>/regist</url-pattern>
+  </servlet-mapping>
 </web-app>

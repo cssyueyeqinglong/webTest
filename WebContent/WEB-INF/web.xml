@@ -10,4 +10,14 @@
     <servlet-name>LoginServerlet</servlet-name>
     <url-pattern>/login</url-pattern>
   </servlet-mapping>
+  <servlet>
+    <description></description>
+    <display-name>DownloadServerlet</display-name>
+    <servlet-name>DownloadServerlet</servlet-name>
+    <servlet-class>com.cy.test.DownloadServerlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>DownloadServerlet</servlet-name>
+    <url-pattern>/download</url-pattern>
+  </servlet-mapping>
 </web-app>

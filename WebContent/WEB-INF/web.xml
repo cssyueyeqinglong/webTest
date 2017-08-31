@@ -30,4 +30,24 @@
     <servlet-name>RegistServerlet</servlet-name>
     <url-pattern>/regist</url-pattern>
   </servlet-mapping>
+  <servlet>
+    <description></description>
+    <display-name>RegisterResultServ</display-name>
+    <servlet-name>RegisterResultServ</servlet-name>
+    <servlet-class>com.cy.test.RegisterResultServ</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>RegisterResultServ</servlet-name>
+    <url-pattern>/msg</url-pattern>
+  </servlet-mapping>
+  <servlet>
+    <description></description>
+    <display-name>CookieServerTest1</display-name>
+    <servlet-name>CookieServerTest1</servlet-name>
+    <servlet-class>com.cy.test.CookieServerTest1</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>CookieServerTest1</servlet-name>
+    <url-pattern>/cookie1</url-pattern>
+  </servlet-mapping>
 </web-app>

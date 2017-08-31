@@ -4,6 +4,7 @@ import java.sql.SQLException;
 
 import org.apache.commons.dbutils.QueryRunner;
 import org.apache.commons.dbutils.handlers.BeanHandler;
+import org.junit.Test;
 
 import com.cy.test.bean.UserBean;
 import com.cy.test.utils.DataSourcePoolV2;
@@ -24,8 +25,8 @@ public class UserDao {
 
 	public int registUser(UserBean bean) throws SQLException {
 		QueryRunner qr = new QueryRunner(DataSourcePoolV2.getDataSource());
-		String sql = "insert into user values(id=?,username=? ,password=?,name=?,email=?,sex=? , birthday=?)";
-		return qr.update(sql,5, bean.username, bean.password, bean.name, bean.email, bean.inlineRadioOptions,
+		String sql = "insert into user(username,password,name,email,sex,birthday) values(? ,?,?,?,?,?)";
+		return qr.update(sql, bean.username, bean.password, bean.name, bean.email, bean.inlineRadioOptions,
 				bean.birthday);
 	}
 }

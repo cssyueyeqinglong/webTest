@@ -50,8 +50,12 @@ public class RegistServerlet extends HttpServlet {
 		}
 		if (res == 1) {
 			System.out.println("注册成功");
+			request.setAttribute("msg", "注册成功");
+			request.getRequestDispatcher("/msg").forward(request, response);
 		} else {
 			System.out.println("注册失败");
+			request.setAttribute("msg", "注册失败");
+			request.getRequestDispatcher("/msg").forward(request, response);
 		}
 	}
 

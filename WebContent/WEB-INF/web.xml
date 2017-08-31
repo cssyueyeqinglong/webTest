@@ -50,4 +50,24 @@
     <servlet-name>CookieServerTest1</servlet-name>
     <url-pattern>/cookie1</url-pattern>
   </servlet-mapping>
+  <servlet>
+    <description></description>
+    <display-name>GetProByIdServ</display-name>
+    <servlet-name>GetProByIdServ</servlet-name>
+    <servlet-class>com.cy.test.GetProByIdServ</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>GetProByIdServ</servlet-name>
+    <url-pattern>/getProductById</url-pattern>
+  </servlet-mapping>
+  <servlet>
+    <description></description>
+    <display-name>ClearHistoryServ</display-name>
+    <servlet-name>ClearHistoryServ</servlet-name>
+    <servlet-class>com.cy.test.ClearHistoryServ</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>ClearHistoryServ</servlet-name>
+    <url-pattern>/clearHistory</url-pattern>
+  </servlet-mapping>
 </web-app>

@@ -70,4 +70,24 @@
     <servlet-name>ClearHistoryServ</servlet-name>
     <url-pattern>/clearHistory</url-pattern>
   </servlet-mapping>
+  <servlet>
+    <description></description>
+    <display-name>Add2CartServ</display-name>
+    <servlet-name>Add2CartServ</servlet-name>
+    <servlet-class>com.cy.test.Add2CartServ</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>Add2CartServ</servlet-name>
+    <url-pattern>/add2cart</url-pattern>
+  </servlet-mapping>
+  <servlet>
+    <description></description>
+    <display-name>ClearCarServ</display-name>
+    <servlet-name>ClearCarServ</servlet-name>
+    <servlet-class>com.cy.test.ClearCarServ</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>ClearCarServ</servlet-name>
+    <url-pattern>/clearCart</url-pattern>
+  </servlet-mapping>
 </web-app>

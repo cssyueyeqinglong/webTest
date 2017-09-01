@@ -100,12 +100,12 @@ body {
 		</div>
 
 		<div class="col-md-2">
-			<a href="/cy_test/getProductById?id=1"> <img
+			<a href="/test_cy/getProductById?id=1"> <img
 				src="products/1/cs10001.jpg" width="170" height="170"
 				style="display: inline-block;">
 			</a>
 			<p>
-				<a href="/cy_test/getProductById?id=1" style='color: green'>衣服</a>
+				<a href="/test_cy/getProductById?id=1" style='color: green'>衣服</a>
 			</p>
 			<p>
 				<font color="#FF0000">商城价：&yen;299.00</font>
@@ -113,12 +113,12 @@ body {
 		</div>
 
 		<div class="col-md-2">
-			<a href="/cy_test/getProductById?id=2"> <img
+			<a href="/test_cy/getProductById?id=2"> <img
 				src="products/1/cs10002.jpg" width="170" height="170"
 				style="display: inline-block;">
 			</a>
 			<p>
-				<a href="/cy_test/getProductById?id=2" style='color: green'>眼镜</a>
+				<a href="/test_cy/getProductById?id=2" style='color: green'>眼镜</a>
 			</p>
 			<p>
 				<font color="#FF0000">商城价：&yen;299.00</font>
@@ -126,12 +126,12 @@ body {
 		</div>
 
 		<div class="col-md-2">
-			<a href="/cy_test/getProductById?id=3"> <img
+			<a href="/test_cy/getProductById?id=3"> <img
 				src="products/1/cs10003.jpg" width="170" height="170"
 				style="display: inline-block;">
 			</a>
 			<p>
-				<a href="/cy_test/getProductById?id=3" style='color: green'>包</a>
+				<a href="/test_cy/getProductById?id=3" style='color: green'>包</a>
 			</p>
 			<p>
 				<font color="#FF0000">商城价：&yen;299.00</font>
@@ -139,12 +139,12 @@ body {
 		</div>
 
 		<div class="col-md-2">
-			<a href="/cy_test/getProductById?id=4"> <img
+			<a href="/test_cy/getProductById?id=4"> <img
 				src="products/1/cs10004.jpg" width="170" height="170"
 				style="display: inline-block;">
 			</a>
 			<p>
-				<a href="/cy_test/getProductById?id=4" style='color: green'>手机</a>
+				<a href="/test_cy/getProductById?id=4" style='color: green'>手机</a>
 			</p>
 			<p>
 				<font color="#FF0000">商城价：&yen;299.00</font>

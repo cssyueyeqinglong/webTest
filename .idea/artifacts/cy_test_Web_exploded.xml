@@ -1,0 +1,23 @@
+<component name="ArtifactManager">
+  <artifact type="exploded-war" name="cy_test:Web exploded">
+    <output-path>$PROJECT_DIR$/out/artifacts/cy_test_Web_exploded</output-path>
+    <root id="root">
+      <element id="javaee-facet-resources" facet="cy_test/web/Web" />
+      <element id="directory" name="WEB-INF">
+        <element id="directory" name="classes">
+          <element id="module-output" name="cy_test" />
+        </element>
+        <element id="directory" name="lib">
+          <element id="library" level="project" name="c3p0-0.9.1.2" />
+          <element id="library" level="module" name="junit4" module-name="cy_test" />
+          <element id="library" level="module" name="commons-logging-1.1.1.jar" module-name="cy_test" />
+          <element id="library" level="module" name="commons-beanutils-1.8.3.jar" module-name="cy_test" />
+          <element id="library" level="module" name="commons-io-1.4.jar" module-name="cy_test" />
+          <element id="library" level="module" name="mysql-connector-java-5.1.39-bin.jar" module-name="cy_test" />
+          <element id="library" level="module" name="commons-dbutils-1.4.jar" module-name="cy_test" />
+          <element id="library" level="module" name="c3p0-0.9.1.2.jar" module-name="cy_test" />
+        </element>
+      </element>
+    </root>
+  </artifact>
+</component>

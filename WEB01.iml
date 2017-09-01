@@ -6,5 +6,7 @@
     <content url="file://$MODULE_DIR$/WebContent" />
     <orderEntry type="jdk" jdkName="1.8" jdkType="JavaSDK" />
     <orderEntry type="sourceFolder" forTests="false" />
+    <orderEntry type="library" name="jsp-api" level="project" />
+    <orderEntry type="module" module-name="cy_test" />
   </component>
 </module>

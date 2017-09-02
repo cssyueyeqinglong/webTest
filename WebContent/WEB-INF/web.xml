@@ -112,4 +112,14 @@
         <servlet-name>CodeServlet</servlet-name>
         <url-pattern>/code</url-pattern>
     </servlet-mapping>
+    <servlet>
+        <description></description>
+        <display-name>AccountServlet</display-name>
+        <servlet-name>AccountServlet</servlet-name>
+        <servlet-class>com.cy.test.AccountServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>AccountServlet</servlet-name>
+        <url-pattern>/account</url-pattern>
+    </servlet-mapping>
 </web-app>

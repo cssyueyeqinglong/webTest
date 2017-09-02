@@ -11,34 +11,16 @@ import com.mchange.v2.c3p0.ComboPooledDataSource;
 
 /**
  * c3p0连接池
- * 
- * @author Administrator
  *
+ * @author Administrator
  */
 public class DataSourcePoolV2 {
 
-	public static DataSource getDataSource() {
-		return new ComboPooledDataSource();
-	}
+    public static DataSource getDataSource() {
+        return new ComboPooledDataSource();
+    }
 
-	public static Connection getConnection() throws SQLException {
-		return getDataSource().getConnection();
-	}
-
-	/**
-	 * 释放结果集
-	 * 
-	 * @param conn
-	 */
-	public static void closeResult(ResultSet rs) {
-		if (rs != null) {
-			try {
-				rs.close();
-			} catch (SQLException e) {
-				e.printStackTrace();
-			}
-			rs = null;
-		}
-	}
-
+    public static Connection getConnection() throws SQLException {
+        return getDataSource().getConnection();
+    }
 }
